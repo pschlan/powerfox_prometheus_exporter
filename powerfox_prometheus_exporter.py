@@ -77,7 +77,7 @@ class Collector:
       ),
       'wirkarbeit_zaehlerstand_aminus_wh': GaugeMetricFamily(
         'wirkarbeit_zaehlerstand_aminus_wh',
-        'Aktueller Zaehlerstand A+ in Wh',
+        'Aktueller Zaehlerstand A- in Wh',
         labels=['hostname']
       ),
       'wirkenergie_tarif1_bezug_wh': GaugeMetricFamily(
